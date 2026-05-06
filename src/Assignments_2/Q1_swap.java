@@ -1,4 +1,4 @@
-package Assignments;
+package Assignments_2;
 
 public class Q1_swap {
 

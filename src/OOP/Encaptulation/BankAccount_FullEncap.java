@@ -1,0 +1,15 @@
+package OOP.Encaptulation;
+
+public class BankAccount_FullEncap {
+
+    private double balance;
+
+    public void deposite(double balance) {
+        if (balance >= 0) {
+            this.balance = balance;
+        }
+    }
+    public double showBalance() {
+        return balance;
+    }
+}
